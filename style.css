@@ -49,43 +49,32 @@ body{
 	background-color: #2c71b8;
 	color: white;
 }
-li ul {
-	display: none;
-}
 
-li:hover ul {
-	display: block;
-	width: 201%;
-	margin-left: 0;
-}
-.col-md-3 input {
-	line-height: 40px;
-	background: none;
+.prod li {
+	width: 290px;
 	border: 0;
-	margin-left: 0;
-	margin-bottom: 3px;
-	margin-top: 3px;
-	color: #2c71b8;
-	width: 130px;
-	font-size: 21px;
-	font-weight: 300;
-}
+	background-color: #2c71b8;
 
-.col-md-3 img {
-	width: 30px;
-	height: 30px;
-	background: #2c71b8;
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	
 }
-.search {
-	border: 1px solid #2c71b8;
-	margin-left: 30px;
-	width: 66.6%;
+.prod li:last-child{
+	border-right: none;
 }
-.cart {
-	width: 33.4%
-	background: url(images/icon1.png) no-repeat;
+.prod li a {
+	text-align: left;
+	color: white;
+	padding-left: 25px;
+}
+.prod li a:hover {
+	background-color: white;
+	color: #2c71b8;
+}
+.prod ul {
+	display: none;
+	border: 0;
+	position: relative;
+	z-index: 2;
+}
+.prod:hover ul {
+	display: block;
+	z-index: 2;
 }
