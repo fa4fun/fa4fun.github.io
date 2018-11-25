@@ -8,8 +8,10 @@ body{
 .container{
 	width: 1170px;
 	margin: 0 auto;
+	
+
 }
-.row:after,.menu:after{
+.row:after,.menu:after {
 	content: "";
 	clear: both;
 	display: block;
@@ -54,7 +56,6 @@ body{
 	width: 290px;
 	border: 0;
 	background-color: #2c71b8;
-
 }
 .prod li:last-child{
 	border-right: none;
@@ -71,10 +72,34 @@ body{
 .prod ul {
 	display: none;
 	border: 0;
-	position: relative;
-	z-index: 2;
 }
 .prod:hover ul {
 	display: block;
-	z-index: 2;
 }
+.col-md-2 {
+	margin-left: 30px;
+	border: 1px solid #2c71b8;
+	width: 75%;	
+}
+
+.col-md-2 input {
+	width: 100%;
+	background: none;
+	border: none;
+	color: #2c71b8;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 20px;
+	height: 40px;
+	background: url(images/icon4.png) no-repeat;
+	background-position: 90%;
+
+}
+.col-md-3-a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: url(images/icon1.png) no-repeat right;
+
+}
+
