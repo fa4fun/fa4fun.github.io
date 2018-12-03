@@ -180,7 +180,77 @@ border-bottom: 1px solid white;
 	margin-bottom: 30px;
 	background-image: url(images/icon2.PNG);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: 95%;
 	background-image height: 20px;
 	background-image margin-right: 20px;
 }
+.like {
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	background-image: url(images/icon5.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+
+}
+.like:hover {
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	background: #2c71b8;
+	background-image: url(images/icon7.PNG);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	
+}
+.widescreen {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	background-image: url(images/icon8.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+}
+
+.airmac {
+	background-image: url(images/icon16.PNG);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 180px;
+	width: 100%;
+}
+.ipod {
+	background-image: url(images/icon14.PNG);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 180px;
+	width: 100%;
+}
+
+.ipad {
+	background-image: url(images/icon15.PNG);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 180px;
+	width: 100%;
+}
+
+.iphone {
+	background-image: url(images/icon12.PNG);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 180px;
+	width: 100%;
